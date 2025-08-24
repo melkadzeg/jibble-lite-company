@@ -127,3 +127,4 @@
 /Users/gurammelkadze/Desktop/jibble-lite/company-service/CompanyService/obj/Debug/net8.0/CompanyService.pdb
 /Users/gurammelkadze/Desktop/jibble-lite/company-service/CompanyService/obj/Debug/net8.0/CompanyService.genruntimeconfig.cache
 /Users/gurammelkadze/Desktop/jibble-lite/company-service/CompanyService/obj/Debug/net8.0/ref/CompanyService.dll
+/Users/gurammelkadze/Desktop/jibble-lite/company-service/CompanyService/obj/Debug/net8.0/CompanyService.sourcelink.json

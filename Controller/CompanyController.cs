@@ -11,9 +11,9 @@ public class CompaniesController : ControllerBase
     public CompaniesController(CompanyDb db) => _db = db;
 
     private string RequireUserId()
-        => User.FindFirstValue("sub")
-           ?? Request.Headers["X-User-Id"].FirstOrDefault()
-           ?? throw new UnauthorizedAccessException("Missing user id (sub).");
+        => Request.Headers["X-User-Id"].FirstOrDefault()
+           ?? throw new UnauthorizedAccessException("Missing user id.");
+
 
     private static bool IsAdminOrOwner(CompanyRole r) => r is CompanyRole.Owner or CompanyRole.Admin;
 
